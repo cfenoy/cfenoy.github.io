@@ -4,7 +4,7 @@
   <title><![CDATA[Minibit Notes]]></title>
   <link href="http://cfenoy.github.io/atom.xml" rel="self"/>
   <link href="http://cfenoy.github.io/"/>
-  <updated>2014-01-23T00:54:36+01:00</updated>
+  <updated>2014-01-23T00:56:17+01:00</updated>
   <id>http://cfenoy.github.io/</id>
   <author>
     <name><![CDATA[Carles Fenoy]]></name>
@@ -54,9 +54,16 @@ can not load the generated file</p>
 <p>Once you have spell checking enabled misspelled word will appear highlighted. You
 can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.</p>
 
-<p>Sources:
-<a href="https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim">https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim</a>
-Vim help: &ldquo;:help mkspell&rdquo;</p>
+<ul>
+<li>Sources:
+
+<ul>
+<li><a href="https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim">https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim</a></li>
+<li>Vim help: &ldquo;:help mkspell&rdquo;</li>
+</ul>
+</li>
+</ul>
+
 ]]></content>
   </entry>
   
