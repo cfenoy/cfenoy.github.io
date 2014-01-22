@@ -31,6 +31,6 @@ After this just change the spelllang to the new language with:
 Once you have spell checking enabled misspelled word will appear highlighted. You
 can use "z=" over a highlighted word to see a list of alternatives.
 
-Sources:
-https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim
-Vim help: ":help mkspell"
++ Sources:
+  + https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim
+  + Vim help: ":help mkspell"
