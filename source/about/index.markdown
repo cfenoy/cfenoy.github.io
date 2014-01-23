@@ -18,8 +18,9 @@ there may be no sources in this case.
 
 About me
 --------
-I'm Carles Fenoy
-I live in Barcelona, Spain. I have a BSc in Computer Science from the Universitat Politecnica de Catalunya and I'm currently working on the thesis of the "Computer Architecture, Network and Systems" master.  I've been working as a Performance Technician at the Barcelona Supercomputing Center - Centro Nacional de Supercomputación, managing the monitoring systems and the batch scheduler systems of the several clusters of the center.  Working there has allowed me to learn Perl of which I've almost never work with before. Also I've learnt about systems programming and kernel internals.
+I'm Carles Fenoy.
+
+I live in Barcelona, Spain. I have a BSc in Computer Science from the Universitat Politecnica de Catalunya and I'm currently working on the thesis of the "Computer Architecture, Network and Systems" master.  I've been working as a Performance Technician at the Barcelona Supercomputing Center - Centro Nacional de Supercomputación, managing the monitoring systems and the batch scheduler systems of the several clusters of the center.  Working there has allowed me to learn Perl which I've almost never work with before. Also I've learnt about systems programming and kernel internals.
 
 I've collaborated mainly in the Slurm resource manager and batch scheduler system with several patches. I also developed my degree thesis using Slurm with title "Millora de la gestió de recursos a Slurm" (Improving the resource management in Slurm) that consisted implementing and testing a Memory bandwidth scheduling policy.
 
