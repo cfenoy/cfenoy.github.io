@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Minibit Notes</title>
+  <title>Blog Archive - Minibit Notes</title>
   <meta name="author" content="Carles Fenoy">
 
   
-  <meta name="description" content="I&rsquo;ve discovered today while setting up this blog that Vim has an spell checker
-included since version 7. You can activate it with: :set spell &hellip;">
+  <meta name="description" content=" Blog Archive 2014 Vim Spellcheck
+Jan 23 2014 Recent Posts Vim Spellcheck ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ included since version 7. You can activate it with: :set spell &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://cfenoy.github.io">
+  <link rel="canonical" href="http://cfenoy.github.io/blog/archives">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Minibit Notes" type="application/atom+xml">
@@ -65,96 +65,36 @@ included since version 7. You can activate it with: :set spell &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/23/vim-spellcheck/">Vim Spellcheck</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-23T00:05:05+01:00" pubdate data-updated="true">Jan 23<span>rd</span>, 2014</time>
-        
-      </p>
+    <h1 class="entry-title">Blog Archive</h1>
     
   </header>
+  
+  <div id="blog-archives">
 
 
-  <div class="entry-content"><p>I&rsquo;ve discovered today while setting up this blog that Vim has an spell checker
-included since version 7. You can activate it with:</p>
 
-<pre><code>:set spell 
-</code></pre>
+  
+  <h2>2014</h2>
 
-<p>This will set the language to default (en).</p>
+<article>
+  
+<h1><a href="/blog/2014/01/23/vim-spellcheck/">Vim Spellcheck</a></h1>
+<time datetime="2014-01-23T00:05:05+01:00" pubdate><span class='month'>Jan</span> <span class='day'>23</span> <span class='year'>2014</span></time>
 
-<p>If you want to change the language use (e.g. Catalan):</p>
 
-<pre><code>:set spell spelllang=ca_ES
-</code></pre>
-
-<p>If you do not have the word list for the language you can download it from the
-OpenOffice extensions page: <a href="http://extensions.services.openoffice.org/dictionary">http://extensions.services.openoffice.org/dictionary</a></p>
-
-<p>The OpenOffice extension files are zipped files containing the dictionaries.
-Just extract the .aff and .dic files to a directory (e.g. /tmp) and import them
-to Vim with (do not specify the extension .aff or .dic):</p>
-
-<pre><code>:mkspell ~/.vim/spell/ca /tmp/catalan
-</code></pre>
-
-<p>The first parameter is where to store the generated word list and the second
-one is the input word list (in this case the catalan.aff and catalan.dic
-files). If the destination directory does not exists Vim will complain that it
-can not load the generated file</p>
-
-<p>After this just change the spelllang to the new language with:</p>
-
-<pre><code>:set spell spelllang=ca_ES
-</code></pre>
-
-<p>Once you have spell checking enabled misspelled word will appear highlighted. You
-can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.</p>
-
-<ul>
-<li>Sources:
-
-<ul>
-<li><a href="https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim">https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim</a></li>
-<li>Vim help: &ldquo;:help mkspell&rdquo;</li>
-</ul>
-</li>
-</ul>
+</article>
 
 </div>
-  
-  
 
-
-    </article>
   
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+</article>
+
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -174,6 +114,7 @@ can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.<
 
   
 </aside>
+
 
     </div>
   </div>

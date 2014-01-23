@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Minibit Notes</title>
+  <title>About This Blog and the Author - Minibit Notes</title>
   <meta name="author" content="Carles Fenoy">
 
   
-  <meta name="description" content="I&rsquo;ve discovered today while setting up this blog that Vim has an spell checker
-included since version 7. You can activate it with: :set spell &hellip;">
+  <meta name="description" content="About This Blog and the Author Jan 22nd, 2014 This blog This blog is supposed to be a record of daily experiences at work and
+interesting things one &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ included since version 7. You can activate it with: :set spell &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://cfenoy.github.io">
+  <link rel="canonical" href="http://cfenoy.github.io/about">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Minibit Notes" type="application/atom+xml">
@@ -65,19 +65,57 @@ included since version 7. You can activate it with: :set spell &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article role="article">
   
-  
-  
-    <article>
-      
   <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/23/vim-spellcheck/">Vim Spellcheck</a></h1>
-    
-    
+    <h1 class="entry-title">About This Blog and the Author</h1>
+    <p class="meta">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-22T23:09:00+01:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time></p>
+  </header>
+  
+  <h2>This blog</h2>
+
+<p>This blog is supposed to be a record of daily experiences at work and
+interesting things one can find surfing the internet. If I remember the sources
+of the information they will always be mentioned at the posts, but much of the
+information is a compilation from several sources and personal experience so
+there may be no sources in this case.</p>
+
+<h2>About me</h2>
+
+<p>I&rsquo;m Carles Fenoy
+I live in Barcelona, Spain. I have a BSc in Computer Science from the Universitat Politecnica de Catalunya and I&rsquo;m currently working on the thesis of the &ldquo;Computer Architecture, Network and Systems&rdquo; master.  I&rsquo;ve been working as a Performance Technician at the Barcelona Supercomputing Center &ndash; Centro Nacional de Supercomputación, managing the monitoring systems and the batch scheduler systems of the several clusters of the center.  Working there has allowed me to learn Perl of which I&rsquo;ve almost never work with before. Also I&rsquo;ve learnt about systems programming and kernel internals.</p>
+
+<p>I&rsquo;ve collaborated mainly in the Slurm resource manager and batch scheduler system with several patches. I also developed my degree thesis using Slurm with title &ldquo;Millora de la gestió de recursos a Slurm&rdquo; (Improving the resource management in Slurm) that consisted implementing and testing a Memory bandwidth scheduling policy.</p>
+
+<p>I&rsquo;m interested in:</p>
+
+<ul>
+<li>Systems programming</li>
+<li>Monitoring systems</li>
+<li>Systems performance</li>
+<li>Perl and other scripting languages as Bash and Python</li>
+<li>The millenary game of Go</li>
+</ul>
+
+
+  
+    <footer>
       <p class="meta">
         
+        
 
 
 
@@ -89,72 +127,25 @@ included since version 7. You can activate it with: :set spell &hellip;">
   
 
 
-<time datetime="2014-01-23T00:05:05+01:00" pubdate data-updated="true">Jan 23<span>rd</span>, 2014</time>
+<time datetime="2014-01-22T23:09:00+01:00" pubdate data-updated="true">Jan 22<span>nd</span>, 2014</time>
         
       </p>
-    
-  </header>
+      
+        <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://cfenoy.github.io/about/index.html" data-via="" data-counturl="http://cfenoy.github.io/about/index.html" >Tweet</a>
+  
+  
+  
+</div>
 
-
-  <div class="entry-content"><p>I&rsquo;ve discovered today while setting up this blog that Vim has an spell checker
-included since version 7. You can activate it with:</p>
-
-<pre><code>:set spell 
-</code></pre>
-
-<p>This will set the language to default (en).</p>
-
-<p>If you want to change the language use (e.g. Catalan):</p>
-
-<pre><code>:set spell spelllang=ca_ES
-</code></pre>
-
-<p>If you do not have the word list for the language you can download it from the
-OpenOffice extensions page: <a href="http://extensions.services.openoffice.org/dictionary">http://extensions.services.openoffice.org/dictionary</a></p>
-
-<p>The OpenOffice extension files are zipped files containing the dictionaries.
-Just extract the .aff and .dic files to a directory (e.g. /tmp) and import them
-to Vim with (do not specify the extension .aff or .dic):</p>
-
-<pre><code>:mkspell ~/.vim/spell/ca /tmp/catalan
-</code></pre>
-
-<p>The first parameter is where to store the generated word list and the second
-one is the input word list (in this case the catalan.aff and catalan.dic
-files). If the destination directory does not exists Vim will complain that it
-can not load the generated file</p>
-
-<p>After this just change the spelllang to the new language with:</p>
-
-<pre><code>:set spell spelllang=ca_ES
-</code></pre>
-
-<p>Once you have spell checking enabled misspelled word will appear highlighted. You
-can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.</p>
-
-<ul>
-<li>Sources:
-
-<ul>
-<li><a href="https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim">https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim</a></li>
-<li>Vim help: &ldquo;:help mkspell&rdquo;</li>
-</ul>
-</li>
-</ul>
+      
+    </footer>
+  
+</article>
 
 </div>
-  
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -174,6 +165,7 @@ can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.<
 
   
 </aside>
+
 
     </div>
   </div>

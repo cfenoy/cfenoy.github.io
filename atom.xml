@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Minibit Notes]]></title>
+  <link href="http://cfenoy.github.io/atom.xml" rel="self"/>
+  <link href="http://cfenoy.github.io/"/>
+  <updated>2014-01-23T20:01:17+01:00</updated>
+  <id>http://cfenoy.github.io/</id>
+  <author>
+    <name><![CDATA[Carles Fenoy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Spellcheck]]></title>
+    <link href="http://cfenoy.github.io/blog/2014/01/23/vim-spellcheck/"/>
+    <updated>2014-01-23T00:05:05+01:00</updated>
+    <id>http://cfenoy.github.io/blog/2014/01/23/vim-spellcheck</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve discovered today while setting up this blog that Vim has an spell checker
+included since version 7. You can activate it with:</p>
+
+<pre><code>:set spell 
+</code></pre>
+
+<p>This will set the language to default (en).</p>
+
+<p>If you want to change the language use (e.g. Catalan):</p>
+
+<pre><code>:set spell spelllang=ca_ES
+</code></pre>
+
+<p>If you do not have the word list for the language you can download it from the
+OpenOffice extensions page: <a href="http://extensions.services.openoffice.org/dictionary">http://extensions.services.openoffice.org/dictionary</a></p>
+
+<p>The OpenOffice extension files are zipped files containing the dictionaries.
+Just extract the .aff and .dic files to a directory (e.g. /tmp) and import them
+to Vim with (do not specify the extension .aff or .dic):</p>
+
+<pre><code>:mkspell ~/.vim/spell/ca /tmp/catalan
+</code></pre>
+
+<p>The first parameter is where to store the generated word list and the second
+one is the input word list (in this case the catalan.aff and catalan.dic
+files). If the destination directory does not exists Vim will complain that it
+can not load the generated file</p>
+
+<p>After this just change the spelllang to the new language with:</p>
+
+<pre><code>:set spell spelllang=ca_ES
+</code></pre>
+
+<p>Once you have spell checking enabled misspelled word will appear highlighted. You
+can use &ldquo;z=&rdquo; over a highlighted word to see a list of alternatives.</p>
+
+<ul>
+<li>Sources:
+
+<ul>
+<li><a href="https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim">https://www.linux.com/learn/tutorials/357267:using-spell-checking-in-Vim</a></li>
+<li>Vim help: &ldquo;:help mkspell&rdquo;</li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
